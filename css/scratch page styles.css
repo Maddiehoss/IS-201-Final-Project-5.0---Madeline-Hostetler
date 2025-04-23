@@ -1,0 +1,164 @@
+/* === General Body and Typography === */
+body {
+    background-color: rgb(85, 79, 79);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    color: rgb(217, 40, 40);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* === Common Box Settings === */
+.common {
+    background-color: #cccccc;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: rgb(217, 40, 40);
+    padding: 10px;
+    position: absolute;
+}
+
+/* === Header Section === */
+.header {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 140px;
+    z-index: 2;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-links {
+    margin-top: 5px;
+}
+
+.nav-links a {
+    margin: 0 5px;
+    color: rgb(217, 40, 40);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* === Left Menu (Services Sidebar) === */
+.leftmenu {
+    top: 160px;
+    left: 10px;
+    width: 150px;
+    bottom: 50px;
+    font-size: 0.7rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.services-sidebar {
+    padding: 0;
+}
+
+.services-sidebar h3 {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-block {
+    text-align: left;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.service-block p {
+    font-weight: bold;
+    margin: 0.3rem 0 0.2rem 0;
+    text-align: left;
+}
+
+.service-block ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    margin-top: 0;
+    text-align: left;
+}
+
+/* === Main Body === */
+.mainbody {
+    top: 160px;
+    left: 170px;
+    right: 130px;
+    bottom: 50px;
+    overflow-y: auto;
+    font-size: small;
+    text-align: left; /* Keep paragraphs left-aligned */
+}
+
+/* === Mission Statement Title === */
+.mission-title {
+    text-align: center; /* Center only the mission statement title */
+    font-size: 1.5rem; /* Increase font size for title */
+    font-weight: bold;
+    margin-bottom: 20px; /* Add space below title */
+    display: block; /* Ensure it's treated as a block-level element */
+}
+
+/* === Right Menu (Gallery) === */
+.rightmenu {
+    top: 160px;
+    right: 10px;
+    width: 110px;
+    bottom: 50px;
+    background-color: #e0c4c4;
+    overflow-y: auto;
+}
+
+.rightmenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightmenu .thumb {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #b88c8c;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* === Footer === */
+.footer {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 35px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #cccccc;
+}
+
+/* === Mission Paragraph Formatting === */
+.mission-box p {
+    text-indent: 0.5in;
+    margin-bottom: 10px;
+}
+
+/* === Optional Subheader Class === */
+.subheader {
+    font-weight: bold;
+}
